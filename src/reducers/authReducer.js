@@ -1,5 +1,4 @@
 import { SIGN_IN, SIGN_OUT } from '../actions/types';
-import { bindActionCreators } from '../../../../../../AppData/Local/Microsoft/TypeScript/3.3/node_modules/redux';
 
 
 // prevents undefined state
