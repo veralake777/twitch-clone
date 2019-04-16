@@ -12,6 +12,8 @@ npm start
 [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
 [Redux](https://redux.js.org/)
 [React-Redux](https://react-redux.js.org/)
+[redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)
+[redux-form](https://github.com/erikras/redux-form/releases) `npm install redux-form@8.1.0`
 [Stephen Grider](https://www.udemy.com/share/100YAOAksaeFdaQ3g=/)
 
 ## App Challenges
@@ -186,3 +188,51 @@ Put the component inside the App component -- inside BrowserRouter if it has `<L
     - createStore from redux
 ## Redux General
 1. **BEST PRACTICE**:src > actions > types.js ==> Put all types of action names here to preven typo errors
+
+## redux-devtools-extension
+### Setup
+- Root index.js - add this:
+```
+// add applyMiddleware, compose to import
+import {createStore, applyMiddleware, compose} from 'redux';
+
+...
+
+// set const after imports
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+
+...
+
+// add this to your store function; after reducers
+    composeEnhancers(applyMiddleware())
+```
+
+### Degug tools
+- The circle icon at the top for the GUI
+- `localhost:XXXX/?debug_session=logged_in=yourNameOfChoiceHere` will save your info in GUI between reloads
+
+## Redux-Form
+[docs](https://redux-form.com) -- redux-form is TRICKYYY
+this app uses the: Synchronous Application Form 
+### Set Up
+- the maintainer made an oopsie and rolled this back to an out dated version
+- use `npm install redux-form@8.1.0` to install the latest known good release
+- reducers > index.js add:
+    - `import { reducer as formReducer } from 'redux-form';`
+    - `combineReducers({...form: formReducer})`
+- components > StreamCreator
+    - `import { Field, reduxForm } from 'redux-form';`
+    - change to class StreamCreator
+    - see code for
+        - add reduxForm to export 
+        - create <form></form> 
+        - create renderInput() 
+        - create onSubmit()
+        - **BEST PRACTICE:** Form Validation; Security and Accuracy
+
+### What does Redux Form do?
+```
+Redux Form Reducer --> Redux Form mapStateToProps --> props -->   
+                ^                                                {DOM stuff handled by react}
+                ^-----Redux Form Action Creator <-- handler <--
+```
