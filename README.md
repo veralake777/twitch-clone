@@ -14,6 +14,7 @@ npm start
 [React-Redux](https://react-redux.js.org/)
 [redux-devtools-extension](https://github.com/zalmoxisus/redux-devtools-extension)
 [redux-form](https://github.com/erikras/redux-form/releases) `npm install redux-form@8.1.0`
+[json-server](https://www.npmjs.com/package/json-server)
 [Stephen Grider](https://www.udemy.com/share/100YAOAksaeFdaQ3g=/)
 
 ## App Challenges
@@ -236,3 +237,15 @@ Redux Form Reducer --> Redux Form mapStateToProps --> props -->
                 ^                                                {DOM stuff handled by react}
                 ^-----Redux Form Action Creator <-- handler <--
 ```
+
+## REST-ful Conventions
+**Naming Convention: GET, POST, PUT, DELETE (CRUD)**
+### What this app is doing:
+|Actions                     |Method  |Route          |
+|----------------------------|:-------|:--------------|
+|List all records            | GET    |/streams       |
+|Get one particular record   | GET    |/streams/:id   |
+|Create record               | POST   |/streams       |
+|Update a record             | PUT    |/streams/:id   |
+|Delete a record             | DELETE |/streams/:id   |
+
