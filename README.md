@@ -3,6 +3,10 @@ A simplified clone of the [Twitch](https://twitch.tv) web application. Twitch is
 
 This app is different from Twitch. With Twitch every user has one stream/channel that they can stream to. In this app, every user can create unlimited channels/streams that they can stream to.
 
+This README includes my thought process and skills learned throughout the project. 
+
+This is an ongoing project.
+
 ## To Run
 npm install
 npm start 
