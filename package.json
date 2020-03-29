@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
+    "cors": "^2.8.5",
     "flv": "0.0.1",
-    "lodash": "^4.17.11",
+    "flv.js": "^1.5.0",
+    "lodash": "^4.17.15",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-redux": "^6.0.1",
@@ -29,5 +31,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "history": "^4.10.1"
+  }
 }

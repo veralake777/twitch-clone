@@ -252,4 +252,3 @@ Redux Form Reducer --> Redux Form mapStateToProps --> props -->
 |Create record               | POST   |/streams       |
 |Update a record             | PUT    |/streams/:id   |
 |Delete a record             | DELETE |/streams/:id   |
-
