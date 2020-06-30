@@ -1,0 +1,11 @@
+{
+  "main.js": "/twitch-clone/static/js/main.dff966f3.chunk.js",
+  "main.js.map": "/twitch-clone/static/js/main.dff966f3.chunk.js.map",
+  "runtime~main.js": "/twitch-clone/static/js/runtime~main.80837314.js",
+  "runtime~main.js.map": "/twitch-clone/static/js/runtime~main.80837314.js.map",
+  "static/js/2.51f79448.chunk.js": "/twitch-clone/static/js/2.51f79448.chunk.js",
+  "static/js/2.51f79448.chunk.js.map": "/twitch-clone/static/js/2.51f79448.chunk.js.map",
+  "index.html": "/twitch-clone/index.html",
+  "precache-manifest.80e07ff3ca4d8849ed7bac723db712ef.js": "/twitch-clone/precache-manifest.80e07ff3ca4d8849ed7bac723db712ef.js",
+  "service-worker.js": "/twitch-clone/service-worker.js"
+}
