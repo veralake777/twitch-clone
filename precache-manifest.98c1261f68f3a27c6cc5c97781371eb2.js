@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "3e5dc534ffc034c858b6",
-    "url": "/twitch-clone/static/js/main.878917a5.chunk.js"
+    "revision": "3a63417e24127b9c8d14",
+    "url": "/twitch-clone/static/js/main.82e74f23.chunk.js"
   },
   {
     "revision": "608a647f2656e1d83c80",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/twitch-clone/static/js/2.cd8ae1bb.chunk.js"
   },
   {
-    "revision": "8c04a8e39d226fe4e5995e77e8dd84a7",
+    "revision": "b5fa1c3354f5214cca2ebae898e7dd69",
     "url": "/twitch-clone/index.html"
   }
 ];
