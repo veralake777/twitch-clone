@@ -8,8 +8,10 @@ This README includes my thought process and skills learned throughout the projec
 This is an ongoing project.
 
 ## To Run
+```
 npm install
-npm start 
+npm start
+```
 
 ## Tools Used
 [Create-React-App](https://github.com/facebook/create-react-app)
